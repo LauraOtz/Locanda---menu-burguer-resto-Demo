@@ -758,13 +758,13 @@ body.nav-active {
 
 .hero-btn {
   position: fixed;
-  bottom: 75px;
-  right: 15px;
+  bottom: 65px;
+ right: 1px;
   z-index: 11;
   background-color: var(--gold-crayola);
   width: 110px;
-  height: 110px;
-  padding: 12px;
+  height: 100px;
+  padding: 10px;
   transform: scale(0.6);
 }
 
