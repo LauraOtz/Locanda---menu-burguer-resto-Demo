@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Locanda - Burguers & Beers</title>
+    <meta name="title" content="Locanda - Burguers & Beers" />
+    <meta name="description" content="Menu de hamburgueseria" />
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo2.png"
+      type="image/svg+xml"
+    />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Locanda</p>
+    </div>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/hambu.jpg"
+                  width="1200"
+                  height="650"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Tradición e innovación en Valencia <br />
+                Llevamos tu paladar a un viaje inolvidable
+              </p>
+
+              <a href="#" class="logo">
+                <img
+                  src="./assets/images/logo2.png"
+                  width="160"
+                  height="50"
+                  alt="Grilli - Home"
+                />
+              </a>
+
+              <a href="#menu" class="btn btn-primary slider-reveal btnS">
+                <span class="text text-1">Menú</span>
+
+                <span class="text text-2" aria-hidden="true">Menú</span>
+              </a>
+              <a href="#paraDos" class="btn btn-primary slider-reveal btnS">
+                <span class="text text-1">PROMO PARA DOS</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >PROMO PARA DOS</span
+                >
+              </a>
+              <a href="#patatas" class="btn btn-primary slider-reveal btnS">
+                <span class="text text-1">JUEVES DE PATATAS</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >JUEVES DE PATATAS</span
+                >
+              </a>
+              <a href="#cocktail" class="btn btn-primary slider-reveal">
+                <span class="text text-1">PROMO COCKTAIL</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >PROMO COCKTAIL</span
+                >
+              </a>
+            </li>
+          </ul>
+
+          <div class="">
+            <a href="#" class="hero-btn has-after">
+              <img
+                src="./assets/images/wh.png"
+                width="48"
+                height="48"
+                alt="booking icon"
+              />
+
+              <span class="label-2 text-center span">Reservas</span>
+            </a>
+          </div>
+        </section>
+
+        <!-- 
+        - #MENU
+      -->
+
+        <section class="section menu" aria-label="menu-label" id="menu">
+          <div class="container">
+            <h2 class="headline-1 section-title text-center">Menú</h2>
+            <p class="section-subtitle text-center label-2">Burguers & Chips</p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="menu-card">
+                  <div class="imgMenu">
+                    <img
+                      src="./assets/images/hambu5.jpg"
+                      width="50"
+                      height="50"
+                      loading="lazy"
+                      alt="Greek Salad"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Americana</a>
+                      </h3>
+
+                      <span class="badge label-1">Más vendida</span>
+
+                      <span class="span title-2">€10.50</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      200g carne vacuna. Queso cheddar, cebolla caramelizada,
+                      bacon, pepinillos y salsa Locanda.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card">
+                  <div class="imgMenu">
+                    <img
+                      src="./assets/images/burg8.jpg"
+                      width="50"
+                      height="50"
+                      loading="lazy"
+                      alt="Greek Salad"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Calabria</a>
+                      </h3>
+
+                      <span class="span title-2">€10.00</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      200g carne vacuna. Doble cheddar, lechuga, pepinillos y
+                      cebolla morada caramelizada.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card">
+                  <div class="imgMenu">
+                    <img
+                      src="./assets/images/burg7.jpg"
+                      width="50"
+                      height="50"
+                      loading="lazy"
+                      alt="Greek Salad"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Jackson</a>
+                      </h3>
+
+                      <span class="span title-2">€9.00</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      200g carne vacuna. Salsa Locanda especial, tomate,
+                      lechuga, cheddar.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card">
+                  <div class="imgMenu">
+                    <img
+                      src="./assets/images/burg6.jpg"
+                      width="50"
+                      height="50"
+                      loading="lazy"
+                      alt="Greek Salad"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Berlín</a>
+                      </h3>
+
+                      <span class="badge label-1">Nueva</span>
+
+                      <span class="span title-2">$€15.00</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      200g carne vacuna. Doble cheddar, bacon caramelizado,
+                      lechuga, salsa Locanda.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card">
+                  <div class="imgMenu">
+                    <img
+                      src="./assets/images/papas4.jpg"
+                      width="50"
+                      height="50"
+                      loading="lazy"
+                      alt="Greek Salad"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Papas classic</a>
+                      </h3>
+
+                      <span class="span title-2">$€6.00</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Canasta papas fritas con salsa Locanda y cheddar.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card">
+                  <div class="imgMenu">
+                    <img
+                      src="./assets/images/papas3.jpg"
+                      width="50"
+                      height="50"
+                      loading="lazy"
+                      alt="Greek Salad"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Papas Locanda</a>
+                      </h3>
+
+                      <span class="span title-2">€7.00</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Canasta de papas fritas rústicas, con ajo, perejil y salsa
+                      especial Locanda.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="./assets/images/burguer.png"
+              width="921"
+              height="1036"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-2 move-anim"
+            />
+            <img
+              src="./assets/images/papas.png"
+              width="343"
+              height="345"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-3 move-anim"
+            />
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section
+          class="section service bg-black-10 text-center"
+          aria-label="service"
+          id="paraDos"
+        >
+          <div class="container">
+            <p class="section-subtitle label-2">Para compartir</p>
+
+            <h2 class="headline-1 section-title">Promo para Dos</h2>
+
+            <p class="section-text">¡VÁLIDO DE LUNES A LUNES!</p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./assets/images/hambx2.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Breakfast"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Promo 1</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Lleváte dos Jackson, la segunda va al 50%
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./assets/images/hambx2x.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Appetizers"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Promo 2</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Bandeja degustación <br />
+                      4 mini burguers acompañadas de canasta de patatas
+                      clasic</a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="https://img.freepik.com/foto-gratis/vista-frontal-vasos-cerveza-trigo_23-2148755010.jpg?w=740&t=st=1703875479~exp=1703876079~hmac=c91d9bdc918001f90525339f7b89fa7892ff586adb7e30023ab380ef219dbcd8"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Drinks"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Promo 3</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Llevando promo 1 o 2 te llevas dos cañas por €4</a
+                    >
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="./assets/images/pngburguer.png"
+              width="246"
+              height="412"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-1 move-anim"
+            />
+            <img
+              src="./assets/images/chef.png"
+              width="343"
+              height="345"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-2 move-anim"
+            />
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section
+          class="section about text-center"
+          aria-labelledby="about-label"
+          id="patatas"
+        >
+          <div class="container">
+            <div class="about-content">
+              <p class="label-2 section-subtitle" id="about-label">
+                El más esperado
+              </p>
+
+              <h2 class="headline-1 section-title">Jueves de Patatas</h2>
+
+              <p class="section-text">
+                Lorem Ipsum is simply dummy text of the printingand typesetting
+                industry lorem Ipsum has been the industrys standard dummy text
+                ever since the when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book It has survived not
+                only five centuries, but also the leap into.
+              </p>
+
+              <div class="contact-label">Book Through Call</div>
+            </div>
+
+            <figure class="about-banner">
+              <img
+                src="https://img.freepik.com/foto-gratis/vista-lateral-papas-fritas-condimento_141793-4899.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=sph"
+                width="570"
+                height="570"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+                data-parallax-item
+                data-parallax-speed="1"
+              />
+
+              <div
+                class="abs-img abs-img-1 has-before"
+                data-parallax-item
+                data-parallax-speed="1.75"
+              >
+                <img
+                  src="https://img.freepik.com/foto-gratis/imagen-generada-ia-plato-papas-fritas_268835-5036.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=sph"
+                  width="285"
+                  height="285"
+                  loading="lazy"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+
+              <div class="abs-img abs-img-2 has-before">
+                <img
+                  src="./assets/images/patata2.png"
+                  width="133"
+                  height="134"
+                  loading="lazy"
+                  alt=""
+                />
+              </div>
+            </figure>
+
+            <img
+              src="./assets/images/patata1.png"
+              width="197"
+              height="194"
+              loading="lazy"
+              alt=""
+              class="shape"
+            />
+          </div>
+        </section>
+        <!-- 
+        - #EVENT
+      -->
+
+        <section
+          class="section event bg-black-10"
+          aria-label="event"
+          id="cocktail"
+        >
+          <div class="container">
+            <p class="section-subtitle label-2 text-center">Cocktelería</p>
+
+            <h2 class="section-title headline-1 text-center">Promo Cubatas</h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 450"
+                  >
+                    <img
+                      src="https://img.freepik.com/foto-gratis/mojito-clasico-hojas-menta_140725-8226.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=sph"
+                      width="350"
+                      height="450"
+                      loading="lazy"
+                      alt="Flavour so good you’ll try to eat with your eyes."
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="card-title title-2 text-center">MOJITO</h3>
+                    <p class="card-subtitle label-2 text-center">2X1</p>
+
+                    <h3 class="card-title title-2 text-center">
+                      Miercoles de 18hs a 21hs <br />
+                      lleva DOS paga UNO
+                    </h3>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 450"
+                  >
+                    <img
+                      src="https://img.freepik.com/foto-gratis/bebida-canela_23-2148014924.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
+                      width="350"
+                      height="450"
+                      loading="lazy"
+                      alt="Flavour so good you’ll try to eat with your eyes."
+                      class="img-cover"
+                    />
+                  </div>
+                  <div class="card-content">
+                    <h3 class="card-title title-2 text-center">
+                      Vaquerito de Licor de Arroz
+                    </h3>
+                    <p class="card-subtitle label-2 text-center">2X1</p>
+
+                    <h3 class="card-title title-2 text-center">
+                      Lunes de 18hs a 21hs <br />
+                      lleva DOS paga UNO
+                    </h3>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 450"
+                  >
+                    <img
+                      src="https://img.freepik.com/foto-gratis/copa-coctel-aromatico-primer-plano-romero_23-2148617668.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais"
+                      width="350"
+                      height="450"
+                      loading="lazy"
+                      alt="Flavour so good you’ll try to eat with your eyes."
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="card-title title-2 text-center">Gin Tonic</h3>
+                    <p class="card-subtitle label-2 text-center">2X1</p>
+
+                    <h3 class="card-title title-2 text-center">
+                      Martes de 18hs a 21hs <br />
+                      lleva DOS paga UNO
+                    </h3>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #banner
+      -->
+
+        <section
+          class="section testi text-center has-bg-image"
+          style="
+            background-image: url('https://img.freepik.com/foto-gratis/amigos-comiendo-conversando-restaurante_23-2148006720.jpg?size=626&ext=jpg&ga=GA1.1.473773967.1686657261&semt=ais');
+          "
+          aria-label="testimonials"
+        >
+          <div class="container">
+            <p class="headline-2 testi-text">Viví la experiencia Locanda</p>
+          </div>
+        </section>
+
+        <!-- 
+        - #RESERVATION
+      -->
+
+        <section class="reservation">
+          <div class="container">
+            <div class="form reservation-form bg-black-10">
+              <form action="" class="form-left">
+                <h4 class="headline-2 text-center">
+                  ¿Tienes un evento? <br />
+                  ¿Cumples años?
+                </h4>
+                <h2 class="headline-1 text-center textReser">
+                  ¡Reserva aquí y llévate un regalo sorpresa!
+                </h2>
+
+                <button type="submit" class="btn btn-secondary">
+                  <span class="text text-1">Comunícate aquí por whatsApp</span>
+
+                  <span class="text text-2" aria-hidden="true"
+                    >Comunícate aquí por whatsApp</span
+                  >
+                </button>
+              </form>
+
+              <div
+                class="form-right text-center"
+                style="
+                  background-image: url('./assets/images/form-pattern.png');
+                "
+              >
+                <h2 class="headline-1 text-center">Contácto</h2>
+
+                <p class="contact-label">Teléfono</p>
+
+                <a
+                  href="tel:+88123123456"
+                  class="body-1 contact-number hover-underline"
+                  >+38-111-1111</a
+                >
+
+                <div class="separator"></div>
+
+                <p class="contact-label">Ruzafa</p>
+
+                <address class="body-4">
+                  Carrer xxx 9578, Valencia<br />
+                  Lunes a Domingo <br />
+                  11.00 am - 2.30pm
+                </address>
+
+                <p class="contact-label">Patraix</p>
+
+                <p class="body-4">
+                  Carrer xxx 9578, Valencia<br />
+                  Lunes a Domingo <br />
+                  11.00 am - 2.30pm
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn active"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
